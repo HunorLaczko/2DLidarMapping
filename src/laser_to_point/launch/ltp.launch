@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="laserToPoints" pkg="laser_to_point" type="laserToPoints"  output="screen"/>
+<node name="republish" pkg="beginner_tutorials" type="listener"  output="screen"/>
+</launch>
